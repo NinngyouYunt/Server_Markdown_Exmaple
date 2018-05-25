@@ -13,3 +13,9 @@ The server will read the file, convert the .md file to html code using markdown 
   - Since the size of the file won't be too big, converting or not make no difference on the size of file fetched
   - It won't be a big deal for server to render a few extra file. 
   - Choose whatever is easier to use (is client-side package easier or is server-side easier)
+    - [markdown-it](https://github.com/markdown-it/markdown-it)
+    - [showdown](https://github.com/showdownjs/showdown)
+    - Something things to note
+      1. Emoji
+      2. Table
+      3. Code Highlight
