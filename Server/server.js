@@ -1,7 +1,7 @@
 const express = require('express')
 const fs = require('fs')
 const showdown = require('showdown')
-const cors = require('cors')
+const cors = require('cors')// 
 
 // Starting express
 const app = express()
