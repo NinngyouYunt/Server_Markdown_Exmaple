@@ -1,7 +1,20 @@
 # Server Building Notes for Personal Blog (using markdown)
 
-There is an example on how to use the node showdown package
-The idea is to write .md markdown file and keep them on server. When client requests the website content, parse the markdown to html and send it to client. 
+There is an example on how to use the node showdown package.  
+The idea is to write .md markdown file and keep them on server. When client requests the website content, parse the markdown to html and send it to client.  
+It is a dynamic website design and constantly manipulate DOM.  
+My preferences for languages, libraries, frameworks and packages:
+- Front-end: [Vue.js](https://vuejs.org/)  
+- Server: [Express](http://expressjs.com/) (Node.js)
+- Stylesheet: CSS
+- Some other server packages used
+  - fs: file reading 
+  - cors: Cross-Origin Resource Sharing
+  - nodemon: Node.js file testing
+- Server choices
+  - Heroku
+- Other notes
+  - Vue comes with its own router
 
 
 ## Some Notes:
@@ -37,7 +50,7 @@ The idea is to write .md markdown file and keep them on server. When client requ
   - Undecided
 - Client vs. Server
   - Server side parsing
-  - Less stress for user device + easier to manage with db
+  - Less stress for user device(Vue is already client-side rendering) + easier to manage with db
 - Excerpt
   - Update on server restart
   - No point checking on every single request, posts are only changed when server restarts
