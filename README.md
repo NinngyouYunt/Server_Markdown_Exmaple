@@ -1,7 +1,7 @@
 # Server Building Notes for Personal Blog (using markdown)
 
-An example on how to use the node showdown package
-The server will read the file, convert the .md file to html code using markdown and send the coverted html back to the website.
+There is an example on how to use the node showdown package
+The idea is to write .md markdown file and keep them on server. When client requests the website content, parse the markdown to html and send it to client. 
 
 
 ## Some Notes:
